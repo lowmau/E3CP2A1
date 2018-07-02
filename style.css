@@ -1,0 +1,268 @@
+html body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	color: #5a5a5a;
+}
+
+.contenedor {
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 100px 0px;
+	background-color: #e2e2e2;
+}
+
+.cv {
+	background-color: white;
+	text-align: center;
+	width: 90%;
+	clear: both;
+	margin: 0% 3.6%;
+	padding-bottom: 10px;
+	height: 835px;
+	padding: 16px;
+}
+
+#imagen {
+	width: 150px;
+	border-radius: 100px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #ababab;
+	margin: -80px auto 0px;
+  left: 0;
+  right: 0;
+}
+
+.azul-span {
+	color: #0278a9;
+}
+
+.header {
+  border-bottom-style: double;
+	border-width: 5px;
+	border-color: #e2e2e2;
+	text-transform: uppercase;
+}
+
+.titulos {
+	text-transform: uppercase;
+	color: #0278a9;
+}
+
+.row {
+	text-align: left;
+  clear: both;
+}
+
+.acerca-de {
+  height: 140px;
+}
+
+.contacto {
+  height: 140px;
+}
+
+.educacion {
+  height: 240px;
+}
+
+.skills {
+  height: 210px;
+}
+
+.experiencia {
+  height: 260px;
+}
+
+.idiomas {
+  height: 260px;
+}
+
+.big-style {
+	padding: 0px 22px;
+}
+
+.educa{
+	padding: 5px;
+  float: left;
+}
+
+.educa-especial{
+	padding: 5px 0px 14px 24px;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.skill {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	background-color: #0278a9;
+	margin: 3px;
+	clear: both;
+}
+
+.idioma {
+  border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #e2e2e2;
+	display: flex;
+	margin-bottom: -10px;
+  height: 40px;
+}
+
+.idioma-1 {
+  margin: -11px 0px 0px;
+}
+
+.idioma-in {
+	display: inline;
+}
+
+.idioma-right {
+	text-align: right;
+}
+
+.hobbie-1 {
+  padding: 12px 0px 0px;
+}
+
+.hobbie {
+	display: inline;
+	background-color: #0278a9;
+	padding: 5px;
+	color: white;
+}
+
+.footer {
+	text-align: right;
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: #e2e2e2;
+	clear: both;
+}
+
+.caja {
+	background-color: #e2e2e2;
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+	overflow: hidden;
+	border-radius: 0px 25px 25px 25px;
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: #e2e2e2;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10{
+  float: left;
+}
+
+@media(min-width: 481px){
+	.col-md-0{
+    width: 5%;
+  }
+  .col-md-1{
+    width: 11%;
+  }
+  .col-md-2{
+    width: 20%;
+  }
+  .col-md-3{
+    width: 30%;
+  }
+  .col-md-4{
+    width: 40%;
+  }
+  .col-md-5{
+    width: 50%;
+  }
+  .col-md-6{
+    width: 60%;
+  }
+  .col-md-7{
+    width: 75%;
+  }
+  .col-md-8{
+    width: 82%;
+  }
+  .col-md-9{
+    width: 90%;
+  }
+  .col-md-10{
+    width: 100%;
+  }
+}
+
+@media(max-width: 480px){
+  .contenedor {
+    padding: 100px 0px 0px;
+  }
+
+  .cv {
+  	width: 100%;
+  	margin: 15px;
+  	height: 1860px;
+  }
+
+  .acerca-de {
+    height: 238px;
+  }
+
+  .contacto {
+    height: 145px;
+  }
+
+  .educacion {
+    height: 385px;
+  }
+
+  .skills {
+    height: 245px;
+  }
+
+  .experiencia {
+    height: 336px;
+  }
+
+  .idiomas {
+    height: 240px;
+  }
+
+  .col-sm-1{
+    width: 10%;
+  }
+  .col-sm-2{
+    width: 20%;
+  }
+  .col-sm-3{
+    width: 30%;
+  }
+  .col-sm-4{
+    width: 40%;
+  }
+  .col-sm-5{
+    width: 50%;
+  }
+  .col-sm-6{
+    width: 60%;
+  }
+  .col-sm-7{
+    width: 72%;
+  }
+  .col-sm-8{
+    width: 85%;
+  }
+  .col-sm-9{
+    width: 90%;
+  }
+  .col-sm-10{
+    width: 100%;
+  }
+}
